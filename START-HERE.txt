@@ -1,0 +1,19 @@
+LAURA'S LINGUISTICS - WINDOWS BUILD PACKAGE
+
+This is source code, not an APK. The cloud build has not been confirmed.
+
+1. Download this ZIP on your Windows PC. Right-click it and choose Extract All.
+2. Install Node.js LTS from https://nodejs.org/ if it is not already installed.
+3. Inside the extracted folder, double-click BUILD-ANDROID.cmd.
+4. Follow the Expo device sign-in instructions. Use the molious account.
+5. If Expo asks to generate a new Android keystore, choose Yes. Expo stores it for future updates. If existing credentials appear, reuse them.
+6. Leave the window open. The build link provides the APK when the build succeeds. Open the APK link on your Android phone to install.
+
+The launcher installs dependencies, runs the source checks, signs into Expo, and submits an APK build. It does not ask Base44 to generate or edit code. If Expo requests a paid upgrade, stop and review before purchasing.
+
+Expo project: https://expo.dev/accounts/molious/projects/lauras-linguistics-android
+Project ID: 22ebbdc6-ec6b-469e-b552-83347020758b
+
+The app loads https://lauraslinguistics.base44.app. Its AI features may still require Base44 integration credits. Native voice support requires the already-prepared Base44 speech changes to be published; publication has not been verified in this handoff.
+
+TypeScript and all nine source regression tests passed here. The Windows launcher and installed APK have not been tested on your devices. No Expo login tokens or signing keys are included.
